@@ -1,0 +1,14 @@
+.navbar{
+  .navbar-brand {
+    @include font($font: "ReklameScript");
+    img{
+      width: 35px;
+      height: 30px;
+    }
+  }
+  .nav-item{
+    @include font($font: "Lato-Black");
+
+
+  }
+}

@@ -1,0 +1,48 @@
+footer {
+  background: $success;
+  margin: 0;
+  color: $primary;
+  h2{
+
+    @include font($font: "Lato-Black");
+  }
+  p{
+    @include font($font: "Lato-Light");
+    letter-spacing: 1px;
+  }
+  #copyright{
+    h2{
+
+      @include font($font: "Lato-Regular");
+    }
+  }
+
+  .fa-brands, .fa-rss {
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+    .fa-rss {
+      background: rgba(243, 178, 91, 0.7);
+    }
+
+    .fa-facebook-f {
+      background: rgba(88, 131, 192, 0.7);
+      width: 37px;
+    }
+
+    .fa-twitter {
+      background: rgba(99, 190, 224, 0.7);
+    }
+
+    .fa-dribbble {
+      background: rgba(233, 160, 196, 0.7);
+    }
+
+    .fa-pinterest {
+      background: rgba(211, 80, 81, 0.7);
+
+  }
+
+}

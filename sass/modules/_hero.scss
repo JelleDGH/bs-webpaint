@@ -1,0 +1,15 @@
+#hero{
+  background: $dark-2;
+  color: $primary;
+
+  .lato-italic{
+    @include font($font: "Lato-Light-Italic")
+  }
+  #webpaint:hover {
+    animation-name: text_color;
+    animation-direction: alternate-reverse;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+  }
+}
+

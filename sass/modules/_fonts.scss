@@ -1,0 +1,31 @@
+@font-face {
+  font-family: ReklameScript;
+  src: url('/assets/fonts/ReklameScript.otf');
+}
+
+@font-face {
+  font-family: Lato-Black;
+  src: url('/assets/fonts/Lato-Black.ttf');
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url('/assets/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: Lato-Light-Italic;
+  src: url('/assets/fonts/Lato-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url('/assets/fonts/Lato-Regular.ttf');
+}
+
+
+
+@mixin font($font: "Lato-Light") {
+  font-family: $font, sans-serif ;
+}
+$font-family-base: font;

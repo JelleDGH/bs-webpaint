@@ -1,0 +1,29 @@
+{
+  "name": "template",
+  "version": "1.0.1",
+  "description": "adds bootstrap, sass to css, add autoprefix to ccs, minfiy css, clean up the css, clean up the js, minify the js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-css": "sass ./sass/main.scss ./sass/main.css && postcss --use autoprefixer -r ./sass/main.css ./sass/main.css && css-minify -f ./sass/main.css -o sass",
+    "compile-js": "rollup ./js/main.js --file ./js/bundle.js --format cjs && terser ./js/bundle.js -c -m -o ./js/main.min.js",
+    "compile-all": "npm-run-all compile-css compile-js",
+    "purge-css": "purgecss --keyframes --css ./sass/main.min.css --content ./*.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output css/"
+  },
+  "author": "Jelle Dhooghe",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "5.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "css-minify": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "purgecss": "^4.1.3",
+    "rollup": "^2.74.1",
+    "terser": "^5.13.1"
+  }
+}

@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Webpaint design, responsive, bootstrap, free template, website, layout" name="description">
+    <meta content="Examen webpaint" name="keywords">
+    <meta content="Jelle Dhooghe" name="author">
+    <link href="./sass/main.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./assets/img/fav.ico" rel="icon" type="image/x-icon">
+    <title>Webpaint</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="bg-dark bg-gradient sticky-top shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark ms-auto">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 m-2 w-50" href="./index.html">
+                <img alt="" src="./assets/img/logo.png">ebpaint</a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-50" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase w-100 text-center justify-content-around fs-7">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-controls="contact" class="nav-link" data-bs-toggle="offcanvas"
+                           href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- MAIN -->
+<main>
+    <!-- HERO SECTION -->
+    <section class="container-fluid text-center py-4" id="hero">
+        <h1 hidden>Home</h1>
+        <div class="row">
+            <h2 class="col-lg-12 display-4 my-4">We are <span class="fw-bold" id="webpaint">Webpaint</span></h2>
+            <p class="col-lg-10  offset-lg-1 display-6 my-3"><span class="lato-italic">digital & branding</span> agency
+                based in Jupiter, and we would love to turn ideas into beautifull things</p>
+
+        </div>
+        <button class="btn btn-secondary fw-bold text-uppercase text-primary py-2 px-4  my-4 jd-btn">See Portfolio
+        </button>
+    </section>
+    <!-- SERVICES SECTION -->
+    <section class="bg-light container-fluid py-5" id="services">
+        <h2 hidden>services</h2>
+        <div class="row py-2">
+            <article class="col-8 offset-2 col-md-6 offset-md-0  col-lg-3  text-center">
+                <img alt="" class="img-fluid mb-2 w-25" src="assets/img/icon-1.png">
+                <h3 class="py-3 fs-4">Consectetur</h3>
+                <p class="px-5">Vestibulum id ligula porta euismod semper. Aenean lacinia bibendum nulla sed consectetur
+                    dui.</p>
+            </article>
+            <article class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3 text-center">
+                <img alt="" class="img-fluid mb-2 w-25" src="assets/img/icon-2.png">
+                <h3 class="py-3 fs-4">Tristiquet</h3>
+                <p class="px-5">Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    risus.</p>
+            </article>
+            <article class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3  text-center">
+                <img alt="" class="img-fluid mb-2 w-25" src="assets/img/icon-3.png">
+                <h3 class="py-3 fs-4">Fermentum</h3>
+                <p class="px-5">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagittis
+                    lacus
+                    mollis.</p>
+            </article>
+            <article class="col-8 offset-2 col-md-6 offset-md-0 col-lg-3 text-center">
+                <img alt="" class="img-fluid mb-2 w-25" src="assets/img/icon-4.png">
+                <h3 class="py-3 fs-4">Elit Ultricies</h3>
+                <p class="px-5">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis
+                    lacus vel augue laoreet.</p>
+            </article>
+        </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section class="container-fluid text-center my-5" id="portfolio">
+        <h2 hidden>portfolio</h2>
+        <h3 class="fs-2">Our Featured Works</h3>
+        <p class="my-4">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
+        <div class="me-auto my-5">
+            <button class="btn btn-secondary fw-bold text-uppercase text-white py-2 px-4 fs-7 selected" id="all">All
+            </button>
+            <button class="btn btn-secondary fw-bold text-uppercase text-white py-2 px-4 fs-7" id="graphic">Graphic
+            </button>
+            <button class="btn btn-secondary fw-bold text-uppercase text-white py-2 px-4 fs-7" id="illustration">
+                Illustration
+            </button>
+            <button class="btn btn-secondary fw-bold text-uppercase text-white py-2 px-4 fs-7" id="motion">Motion
+            </button>
+        </div>
+        <div class="d-flex justify-content-center ">
+            <div class="row g-2 w-75">
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-1.png">
+                        <h3  class="img_overlay">
+                            <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                        </h3>
+
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-2.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-3.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-4.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-5.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-6.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-7.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-8.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-9.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-10.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-11.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+                <div class="img_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 col-lg-3">
+                    <img alt="" class="img-fluid img_flag img-thumbnail" src="./assets/img/image-12.png">
+                    <h3  class="img_overlay">
+                        <mark class="country_title bg-dark px-2 text-secondary fs-6">title</mark>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="text-center d-flex justify-content-center flex-column">
+    <section class="pt-5 w-100">
+        <h2 class="fs-3 pb-3">Get in Touch</h2>
+        <p class="px-1">Vestibulum id ligula porta felis euismod semper,malesuada euismod.</p>
+        <div class="d-flex justify-content-center">
+            <p class="px-1 fs-7"><i class="text-secondary fa-solid fa-location-dot"></i> Moonshine Street No: 14/05
+                Light City, Jupiter</p>
+            <p class="fs-7"><span class="text-secondary ps-5">&#9742;</span> 0247 541 65 87
+            </p>
+        </div>
+        <p class="text-center align-items-center text-white py-3"><i class="fa-solid fa-rss"></i><i
+                class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i><i
+                class="fa-brands fa-dribbble"></i><i class="fa-brands fa-pinterest"></i></p>
+
+    </section>
+    <section class="text-center text-light bg-dark py-4" id="copyright">
+
+        <h2 class="m-0 fs-7">&commat; Webpaint. All Rights Reserved.</h2>
+    </section>
+</footer>
+<div aria-labelledby="contact" class="offcanvas offcanvas-end bg-dark text-light" id="contact" tabindex="-1">
+    <div class="offcanvas-header">
+        <h2 class="offcanvas-title pb-0">Contact us</h2>
+        <button aria-label="Close" class="btn-close btn-secondary rounded-circle text-reset" data-bs-dismiss="offcanvas"
+                type="button"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p class="p-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="mb-2">
+            <label class="form-label" for="exampleFormControlInput1" hidden>Name</label>
+            <input class="form-control" id="contactName" placeholder="Name" type="text">
+        </div>
+        <div class="mb-2">
+            <label class="form-label" for="exampleFormControlInput1" hidden>Phone number</label>
+            <input class="form-control" id="contactPhone" placeholder="Phone number" type="tel">
+        </div>
+        <div class="mb-2">
+            <label class="form-label" for="exampleFormControlInput1" hidden>Email address</label>
+            <input class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" type="email">
+        </div>
+        <div class="mb-2">
+            <label class="form-label" for="exampleFormControlTextarea1" hidden>Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your question..."
+                      rows="3"></textarea>
+        </div>
+        <button class="btn btn-secondary text-light text-uppercase mb-3">Contact us</button>
+        <div class="ratio ratio-1x1">
+            <iframe width="150" height="115" src="https://www.youtube.com/embed/fAykuR2fMG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="./js/main.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
